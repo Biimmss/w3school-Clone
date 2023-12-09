@@ -12,27 +12,27 @@ nav{
     position: fixed;
     z-index: 5;
 }
-.navbar-container{
+.navbar{
     display: flex;
     height: 100%;
     width: 100%;
 }
-.navbar-1,
-.navbar-2{
+.nav1,
+.nav2{
     width: 45%;
     height: 100%;
 
     display: flex;
     align-items: center;
 }
-nav .navbar-2{
+nav .nav2{
     justify-content: right;
 }
-nav .navbar-1{
+nav .nav1{
     width: 55%;
 }
 
-.navbar-1 img{
+.nav1 img{
     width: 75px;
 }
 ul{
@@ -43,8 +43,8 @@ ul{
     align-items: center;
     padding: 0px;
 }
-.navbar-1 ul li,
-.navbar-2 ul li{
+.nav1 ul li,
+.nav2 ul li{
     padding: 0px;
     display: flex;
     margin: 0px;
@@ -54,24 +54,24 @@ ul{
     
     
 }
-.navbar-1 ul li{
+.nav1 ul li{
     height: 100%;
     padding: 0px 20px;
 
 }
-.navbar-1 ul li:hover{
+.nav1 ul li:hover{
     background-color: rgb(4,170,109);
 }
-.navbar-1 ul li:hover i,
-.navbar-1 ul li:hover{
+.nav1 ul li:hover i,
+.nav1 ul li:hover{
     color: white;
     transition: 0.2s;
 }
-.navbar-1 ul li i{
+.nav1 ul li i{
     margin: 1px 0px 0px 3px;
     font-size: 15px;
 }
-.navbar-1 .search{
+.nav1 .search{
     width: 160px;
     border-radius: 45px;
     height: 34px;
@@ -112,21 +112,21 @@ input::placeholder{
     margin-left: 23px;
     font-size: 17px;
 }
-.navbar-2 ul li i{
+.nav2 ul li i{
     margin-right: 8px;
     color: rgb(171,129,247);
 
 }
-.navbar-2 ul li{
+.nav2 ul li{
     height: 70%;
     margin: 0px 8px;
     padding: 0px 15px;
     border-radius: 40px;
 }
-.navbar-2 ul li:hover{
+.nav2 ul li:hover{
     background-color: rgb(244, 241, 241);
 }
-.navbar-2 .container-signupLogin{
+.nav2 .container-signupLogin{
     width: 168px;
     height: 68%;
     background-color: rgb(211, 239, 222);
@@ -137,7 +137,7 @@ input::placeholder{
     margin-right: 30px;
 }
 
-.navbar-2 .container-signupLogin:hover{
+.nav2 .container-signupLogin:hover{
     background-color: rgb(7, 153, 99);
     color: white;
 }
@@ -172,7 +172,6 @@ input::placeholder{
     height: 100%;
     
 }
-
 .nav-list .arrow{
     width: 30px;
     height: 100%;
@@ -714,15 +713,16 @@ input::placeholder{
 .bla-bla p span,.marker span{
     text-decoration: underline;
 }
-.astronot img{
-    margin-left: 490px;
-    margin-top: -110px;
-    height: 140px;
-    position: absolute;
-}
 .wrapper-footer .astro{
     width: 500px;
     position: absolute;
     right: -180px;
     bottom: 0px;
+}
+
+.astronot img{
+    margin-left: 490px;
+    margin-top: -110px;
+    height: 140px;
+    position: absolute;
 }
